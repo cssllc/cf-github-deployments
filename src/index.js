@@ -95,7 +95,6 @@ async function handleGetRequest( event ) {
  * @throws {UnauthorizedException}
  */
 function verifyCredentials(user, pass) {
-	console.log( user, pass );
 	if (BASIC_USER !== user) {
 		throw new UnauthorizedException( 'Invalid credentials.' );
 	}
