@@ -1,3 +1,6 @@
 name = "github-deployments"
 main = "src/index.js"
 compatibility_date = "2022-07-19"
+kv_namespaces = [
+	{ binding = "storage", id = "<YOUR_ID>" }
+]
